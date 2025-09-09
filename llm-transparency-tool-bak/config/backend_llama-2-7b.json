@@ -1,0 +1,16 @@
+{
+    "model_name": "meta-llama/Llama-2-7b-hf",
+    "_model_path": "/fs/scratch/rb_bd_dlp_rng-dl01_cr_AIM_employees/model_cache/llama/llama-2-7b-hf/",
+    "device": "gpu",
+    "dtype": "torch.bfloat16",
+    "amp_enabled": true,
+    "renormalize_after_threshold": false,
+    "normalize_before_unembedding": true,
+    "prepend_bos": false,
+    "do_neuron_level": true,
+    "neuron_extraction_mode": "threshold",
+    "contribution_threshold": 0.01,
+    "logit_lens_topK": 10,
+    "logit_lens_topK_neurons": 10,
+    "run_logit_lens_on_heads": true
+}

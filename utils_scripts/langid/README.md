@@ -1,0 +1,2 @@
+### FastText language identification
+To perform language identification with FastText, download the `lid.176.bin` model from [here](https://fasttext.cc/docs/en/language-identification.html) and place it in the `utils_scripts/langid/` directory.
