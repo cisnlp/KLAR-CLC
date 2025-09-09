@@ -6,8 +6,7 @@ This repository is an original implementation for:
 
 ## 💡 Introduction
 
-![image_text](src/teaser-image-clc.jpg)
-
+<img src="src/teaser-image-clc.jpg" alt="image_text" width="600"/>
 
 We apply mechanistic interpretability methods to analyze cross-lingual inconsistencies in multilingual masked language models (MLMs). Our findings reveal that MLMs represent knowledge in a shared, language-independent space through most layers, transitioning to language-specific representations only in the final layers. Errors often occur during this transition, leading to incorrect predictions in the target language despite correct answers in others. These insights offer a lightweight and effective strategy for improving factual consistency across languages.
 
